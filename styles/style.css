@@ -26,6 +26,7 @@ p {
     border-radius: 2px;
     font-size: small;
     font-weight: 100;
+    transition: 1s;
 
 }
 
@@ -66,6 +67,13 @@ p {
 .flex-width {
 
     color: white;
+}
+
+.container a:hover {
+    background-color: brown;
+    padding: 15px;
+    transform: scale(0, 1);
+
 }
 
 /*------------------
